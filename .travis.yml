@@ -4,4 +4,5 @@ sudo: false
 dotnet: 2.1
 mono: none
 script:
-- LANG=tr_TR LC_ALL=tr_TR dotnet run -p TestLocaleBug/TestLocaleBug.csproj
+- dotnet run -p TestLocaleBug/TestLocaleBug.csproj
+- dotnet test NUnitTestProject1/NUnitTestProject1.csproj
