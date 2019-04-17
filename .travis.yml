@@ -4,4 +4,4 @@ sudo: false
 dotnet: 2.1
 mono: none
 script:
-- dotnet run TestLocaleBug/TestLocaleBug.csproj
+- dotnet run -p TestLocaleBug/TestLocaleBug.csproj
