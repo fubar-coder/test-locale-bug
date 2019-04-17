@@ -2,7 +2,7 @@ language: csharp
 dist: xenial
 sudo: false
 dotnet: 2.1
-mono: none
+mono: latest
 script:
 - dotnet run -p TestLocaleBug/TestLocaleBug.csproj
 - dotnet test NUnitTestProject1/NUnitTestProject1.csproj
