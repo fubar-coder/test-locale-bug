@@ -1,0 +1,6 @@
+language: csharp
+dist: xenial
+sudo: false
+dotnet: latest
+script:
+- dotnet run TestLocaleBug/TestLocaleBug.csproj
